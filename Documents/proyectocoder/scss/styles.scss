@@ -1,0 +1,43 @@
+@import "personajes";
+@import "peliculas";
+@import "series";
+@import "forum";
+@import "index";
+@import "footer";
+
+.logo { 
+    margin-top: 5px;
+    max-height: 200px; 
+    width: auto;
+  }
+
+  
+.category {
+  border-style: groove;
+  color: white;
+  background-color: black;
+   
+    
+}
+.category li a{
+    color: white;
+    transition: all 2s;
+    width: 2s;
+     
+}
+
+.category li a:hover {
+        
+       background-color:blue;
+}
+
+.container2{
+ display:inline block;
+ margin-left: 1200px;
+ 
+
+} 
+ 
+body {
+    background-image: url(starry-night-sky.jpg);
+   }

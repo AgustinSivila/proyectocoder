@@ -1,0 +1,30 @@
+.personajes{
+    @extend .peliculas;
+
+}
+.kenobi{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.jedi{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+    top: 680px;
+}
+
+.jedi2{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+    top: 680px;
+}

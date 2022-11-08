@@ -1,0 +1,36 @@
+.novedades{
+  @extend .peliculas;
+    
+}
+ .Andor{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+
+}
+.andor{
+    color: white;
+    text-shadow: 0 0 8px;
+   
+
+}
+.novedades {
+    
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+    animation-duration: 10s;
+}
+    @keyframes aparecer {
+        0% {
+            opacity: 0%;
+        }
+        50% {
+            font-size: 200%;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+   
