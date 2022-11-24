@@ -1,0 +1,31 @@
+.peliculas{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 8px;
+    
+}
+.episodio3{
+    display: flex;
+    padding-left: 40%;
+    padding-right: 20%;
+    width: 800px;
+    border: thin #0f0fef 1px;
+    }
+.sith{
+  color: white;
+  position: relative;
+  right: -10px;
+  bottom: 450px;
+  font-size: large;
+}
+
+.texto{
+    color: white;
+    right: -10px;
+    bottom: 450px;
+    position: relative;
+    font-size: small;
+}
